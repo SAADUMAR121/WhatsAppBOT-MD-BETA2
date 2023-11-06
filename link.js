@@ -1,7 +1,7 @@
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-let ownr = process.env.OWNER === undefined ? '0,447405935355' : process.env.OWNER
+let ownr = process.env.OWNER === undefined ? '0,923321709439' : process.env.OWNER
 //-------------
 let ownrnum = ownr.toString().split(',')
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -9,7 +9,7 @@ let ownrnum = ownr.toString().split(',')
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-let sudo = process.env.SUDO === undefined ? '0,447405935355' : process.env.SUDO
+let sudo = process.env.SUDO === undefined ? '0,923321709439' : process.env.SUDO
 //-------------
 let sudonum = sudo.toString().split(',')
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ let sudonum = sudo.toString().split(',')
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-let stickker = process.env.STICKER_PACK === undefined ? '𝘼𝙇𝙄𝙀𝙉,𝘼𝙇𝙁𝘼' : process.env.STICKER_PACK
+let stickker = process.env.STICKER_PACK === undefined ? 'SaadUmar' : process.env.STICKER_PACK
 //-------------
 let stickkerr = stickker.toString().split(',')
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -25,7 +25,7 @@ let stickkerr = stickker.toString().split(',')
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-let prem = process.env.PREMIUM === undefined ? '447405935355' : process.env.PREMIUM
+let prem = process.env.PREMIUM === undefined ? '923321709439' : process.env.PREMIUM
 //-------------
 let premiu = prem.toString().split(',')
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -61,8 +61,8 @@ else {global.worktype = 'private'}
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
  global.autoTypingzz = process.env.AUTO_TYPING === undefined ? false : process.env.AUTO_TYPING //auto tying in gc (true to on, false to off)
- global.autoreadpmngczz = process.env.AUTO_READ_PM === undefined ? false : process.env.AUTO_READ //auto reading in gc and pm (true to on, false to off)
- global.autoReadGczz = process.env.AUTO_READ_GROUP === undefined ? false : process.env.AUTO_READ_GROUP //auto reading in gc (true to on, false to off)
+ global.autoreadpmngczz = process.env.AUTO_READ_PM === undefined ? true : process.env.AUTO_READ //auto reading in gc and pm (true to on, false to off)
+ global.autoReadGczz = process.env.AUTO_READ_GROUP === undefined ? true : process.env.AUTO_READ_GROUP //auto reading in gc (true to on, false to off)
  global.autoRecordzz = process.env.AUTO_RECORD === undefined ? false : process.env.AUTO_RECORD //auto recording (true to on, false to off)
  global.availablezz = process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE  //auto available (true to on, false to off)
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,10 +77,10 @@ else {global.worktype = 'private'}
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
  global.vcardownerzz = `${ownrnum}` //ur owner number
- global.ownernamezz = process.env.VIDEO_MENU_URL === undefined ? "ALIEN-ALFA" : process.env.VIDEO_MENU_URL //ur owner name
- global.ytnamezz = process.env.VIDEO_MENU_URL === undefined ? "YT: ALIENALFA" : process.env.VIDEO_MENU_URL  //ur yt chanel name
- global.socialmzz = process.env.VIDEO_MENU_URL === undefined ? "GitHub: DGXeon" : process.env.VIDEO_MENU_URL  //ur github or insta name
- global.locationzz = process.env.VIDEO_MENU_URL === undefined ? "UK, London, hertfordshire" : process.env.VIDEO_MENU_URL  //ur location
+ global.ownernamezz = process.env.VIDEO_MENU_URL === undefined ? "Saad Umar" : process.env.VIDEO_MENU_URL //ur owner name
+ global.ytnamezz = process.env.VIDEO_MENU_URL === undefined ? "YT: saadumar650" : process.env.VIDEO_MENU_URL  //ur yt chanel name
+ global.socialmzz = process.env.VIDEO_MENU_URL === undefined ? "GitHub: SAADUMAR121" : process.env.VIDEO_MENU_URL  //ur github or insta name
+ global.locationzz = process.env.VIDEO_MENU_URL === undefined ? "Balochistan, Quetta" : process.env.VIDEO_MENU_URL  //ur location
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -88,10 +88,10 @@ else {global.worktype = 'private'}
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
  global.ownerzz = `${sudonum}`
  global.ownertagzz = process.env.TAG_NUMBER === undefined ? '447405935355' : process.env.TAG_NUMBER  //ur tag number
- global.botnamezz = process.env.BOTNAME === undefined ? "𝒜𝓊𝓇𝑜𝓇𝒶 𝐵𝒪𝒯-𝑀𝒟" : process.env.BOTNAME //ur bot name
- global.linkzzz = process.env.THEME_URL === undefined ? 'https://www.youtube.com/alienalfa' : process.env.THEME_URL //your theme url which will be displayed on whatsapp
- global.websitexzz = process.env.WEBSITE === undefined ? 'https://www.GITHUB.com/alien-alfa' : process.env.WEBSITE  //ur website to be displayed
- global.botscriptzz = 'https://github.com/Alien-Alfa/WhatsAppBot-MD-BETA2' //script link
+ global.botnamezz = process.env.BOTNAME === undefined ? "Mr Bot" : process.env.BOTNAME //ur bot name
+ global.linkzzz = process.env.THEME_URL === undefined ? 'https://www.youtube.com/@saadumar650' : process.env.THEME_URL //your theme url which will be displayed on whatsapp
+ global.websitexzz = process.env.WEBSITE === undefined ? 'https://saadumar648.blogspot.com' : process.env.WEBSITE  //ur website to be displayed
+ global.botscriptzz = 'https://github.com/SAADUMAR121/WhatsAppBot-MD-BETA2' //script link
  global.reactmojizz = process.env.REACT_EMOJI === undefined ? "😘" : process.env.REACT_EMOJI //ur menu react emoji
  global.themeemojizz = process.env.THEME_EMOJI === undefined ? "🦄" : process.env.THEME_EMOJI //ur theme emoji
  global.packnamezz = `${stickkerr[0]}` //ur sticker watermark packname
@@ -101,10 +101,10 @@ else {global.worktype = 'private'}
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
- global.thumzz = process.env.THUMB_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/beta/Alfa.jpg?raw=true' : process.env.THUMB_PIC //ur thumb pic
- global.log0zz = process.env.LOGO_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/beta/Alfa.jpg?raw=true' : process.env.LOGO_PIC //ur logo pic
- global.err4rzz = process.env.ERROR_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/beta/Alfa.jpg?raw=true' : process.env.ERROR_PIC //ur error pic
- global.thumbzz = process.env.THUMBNAIL_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/beta/Alfa.jpg?raw=true' : process.env.THUMBNAIL_PIC //ur thumb pic
+ global.thumzz = process.env.THUMB_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/https://graph.org/file/56c0fb63b1eb1b2ca789c.jpgbeta/Alfa.jpg?raw=true' : process.env.THUMB_PIC //ur thumb pic
+ global.log0zz = process.env.LOGO_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/https://graph.org/file/56c0fb63b1eb1b2ca789c.jpgbeta/Alfa.jpg?raw=true' : process.env.LOGO_PIC //ur logo pic
+ global.err4rzz = process.env.ERROR_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/https://graph.org/file/56c0fb63b1eb1b2ca789c.jpgbeta/Alfa.jpg?raw=true' : process.env.ERROR_PIC //ur error pic
+ global.thumbzz = process.env.THUMBNAIL_PIC === undefined ? 'https://github.com/Alien-alfa/Alien-alfa/blob/https://graph.org/file/56c0fb63b1eb1b2ca789c.jpgbeta/Alfa.jpg?raw=true' : process.env.THUMBNAIL_PIC //ur thumb pic
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -126,9 +126,9 @@ global.premiumzz = `${premiu}` //ur premium numbers
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-global.devname = '𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼'
+global.devname = 'Saad Umar'
 //-------------
-global.devNum = ['447405935355','919383400679']
+global.devNum = ['923321709439','923198326328']
 //-------------
 global.SessName = './session.alfa.json'
 //-------------
@@ -136,19 +136,19 @@ global.session = process.env.SESSION_ID || false
 //-------------
 global.listicon = process.env.LISTICON === undefined ? '✩' : process.env.LISTICON
 //-------------
-global.wm = process.env.WATERMARK === undefined ? 'ＡＬＩＥＮ ＡＬＦＡ' : process.env.WATERMARK
+global.wm = process.env.WATERMARK === undefined ? 'SAAD UMAR' : process.env.WATERMARK
 //-------------
-global.mail = process.env.MAIL === undefined ? 'AlienAlfa.YT@gmail.com' : process.env.MAIL
+global.mail = process.env.MAIL === undefined ? 'saadumar658@gmail.com' : process.env.MAIL
 //-------------
-global.youtube = process.env.YOUTUBE === undefined ? 'https://youtube.com/c/alienalfa' : process.env.YOUTUBE
+global.youtube = process.env.YOUTUBE === undefined ? 'https://youtube.com/c/saadumar650' : process.env.YOUTUBE
 //-------------
-global.github = process.env.GITHUB === undefined ? 'https://github.com/Alien-alfa/' : process.env.GITHUB
+global.github = process.env.GITHUB === undefined ? 'https://github.com/SAADUMAR121' : process.env.GITHUB
 //-------------
-global.insta = process.env.INSTAGRAM === undefined ? 'https://www.instagram.com/alienalfa/' : process.env.INSTAGRAM
+global.insta = process.env.INSTAGRAM === undefined ? 'https://www.instagram.com/saadumar.650/' : process.env.INSTAGRAM
 //-------------
-global.linkname = process.env.NAME === undefined ? '𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼' : process.env.NAME
+global.linkname = process.env.NAME === undefined ? 'Saad Umar' : process.env.NAME
 //-------------
-global.mainfooter = process.env.FOOTER === undefined ? '𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼' : process.env.FOOTER
+global.mainfooter = process.env.FOOTER === undefined ? 'Saad Umar' : process.env.FOOTER
 //-------------
 global.herokuapi = process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY
 //-------------
